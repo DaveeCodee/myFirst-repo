@@ -1,0 +1,62 @@
+main{
+    width: 100%;
+    height: calc(100vh - 60px);
+    background-color: #000;
+    background-image: url(./img/enzo\ \(2\).jpg);
+    background-size:70vh, cover;
+    background-repeat: no-repeat;
+    background-position: bottom, center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    
+}
+
+main .main-intro h1{
+    font-size: 96px;
+    line-height: 106px;
+}
+
+main p{
+    font-size: 18px;
+    line-height: 30px;
+}
+
+main a{
+    font-size: 18px;
+    display: block;
+    background-color:orangered;
+    padding: 8px 16px;
+    width: fit-content;
+    text-align: center;
+    margin-top: 20px;
+    border: 2px solid  rgb(120, 93, 46);
+}
+
+main a:hover{
+    font-size: 18px;
+    display: block;
+    background-color:rgb(210, 80, 32);
+    padding: 8px 16px;
+    width: fit-content;
+    text-align: center;
+    margin-top: 20px;
+    border: 2px solid  rgb(120, 93, 46);
+}
+main .main-quotes p {
+    border-left: 4px solid orangered;
+    padding: 20px;
+    margin: 10px 0;
+}
+
+main .main-intro{
+    position: relative;
+    right: 20vh;
+    padding-bottom: 8vh;
+}
+main .main-quotes{
+    position: relative;
+    left: 7vh;
+    padding-bottom: 8vh;
+}
